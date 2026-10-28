@@ -23,8 +23,10 @@ Un runner GitHub Actions auto‑hébergé, exécuté dans un conteneur Docker, c
 - Base initiale
 ```text
 ├── README.md
-├── .github
-├── docs
+├── .github/
+      └── .gitkeep
+├── docs/
+      └── .gitkeep
 ├── .gitignore
 ├── LICENSE
 ├── dockerfile
