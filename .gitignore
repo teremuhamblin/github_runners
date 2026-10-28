@@ -1,0 +1,109 @@
+##############################################
+# 🪖 GITHUB-RUNNERS — GITIGNORE PRO
+# Docker • GitHub Actions • Scripts • Logs
+##############################################
+
+###############
+# 🔥 LOGS
+###############
+*.log
+*.log.*
+logs/
+log/
+runner.log
+actions.log
+
+###############
+# ⚡ TEMP / CACHE
+###############
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+*.pid
+*.lock
+cache/
+tmp/
+tmp/*
+
+###############
+# 🐳 DOCKER
+###############
+docker-data/
+docker/volumes/
+*.tar
+*.img
+*.container
+*.pid
+
+###############
+# ⚙️ GITHUB ACTIONS
+###############
+.github/actions-cache/
+.github/workflows/*.tmp
+.github/workflows/*.bak
+actions-runner/_diag/
+actions-runner/_work/
+actions-runner/*.log
+actions-runner/*.session
+
+###############
+# 🔒 ENVIRONNEMENTS / SECRETS
+###############
+.env
+.env.*
+*.secret
+*.key
+secrets/
+keys/
+tokens/
+
+###############
+# 🐍 PYTHON (si scripts)
+###############
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+
+###############
+# 📦 NODE / JS (si outils)
+###############
+node_modules/
+.pnpm-store/
+dist/
+.next/
+.eslintcache
+
+###############
+# 🛠️ SYSTEME / OS
+###############
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+
+###############
+# 🖥️ IDE / EDITORS
+###############
+.vscode/
+.idea/
+*.orig
+
+###############
+# 🧪 TESTS / COVERAGE
+###############
+coverage/
+.coverage
+htmlcov/
+test-output/
+junit.xml
