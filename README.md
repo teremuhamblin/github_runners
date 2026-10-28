@@ -22,17 +22,7 @@ Un runner GitHub Actions auto‑hébergé, exécuté dans un conteneur Docker, c
 #### 📂 Structure du projet
 - Base initiale
 ```text
-├── README.md
-├── .github/
-      └── .gitkeep
-├── docs/
-      └── .gitkeep
-├── .gitignore
-├── LICENSE
-├── dockerfile
-├── dck-compose.yml
-├── entrypoint.sh
-└── runner-workdir/
+VOIR **docs/structure.md**
 ```
 
 ---
@@ -46,7 +36,8 @@ Un runner GitHub Actions auto‑hébergé, exécuté dans un conteneur Docker, c
 ---
 
 #### 🔧 Configuration des variables
-- Dans docker-compose.yml, renseigne :
+- Dans *docker-compose.yml*,
+   - renseigne :
 ```yaml
 environment:
   - RUNNER_NAME=github-runner-organisasi
@@ -56,7 +47,7 @@ environment:
 
 ---
 
-▶️ Installation & Lancement
+#### ▶️ Installation & Lancement
 
 》》 1. Construire l’image
 ```bash
@@ -103,9 +94,10 @@ Ce projet utilise la TheMadDoG.tmdg Personal License (TPL) ou toute licence que 
 ---
 
 ### 🙌 Auteur
+```text
 - **The MadDoG.tmdg**
 - GitHub :
    - https://github.com/teremuhamblin
    - github.com in Bing
-
+```
 ---
